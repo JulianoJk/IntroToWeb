@@ -10,34 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        font-family: "Arial", sans-serif;
-        padding-top: 56px;
-      }
-      footer {
-        background-color: #f0f0f0;
-        padding: 10px;
-        text-align: center;
-        margin-top: 40px;
-      }
-      .card-img-top {
-        height: 250px; /* Adjust height as needed */
-        object-fit: cover; /* Ensure images cover nicely */
-      }
-      .services-list {
-        list-style-type: none; /* Remove default list styling */
-        padding-left: 0; /* Align items to the left */
-      }
-      .services-list li:before {
-        content: "\2022"; /* Add bullet points */
-        color: #007bff; /* Bootstrap primary color */
-        font-weight: bold; /* Make bullet points bold */
-        display: inline-block;
-        width: 1em; /* Space between bullet points and text */
-        margin-left: -1em; /* Align bullet points with text */
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -63,11 +36,6 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="HistoryOfCity.html"
-                  >History of Athens</a
-                >
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="CitizenServices.html"
                   >Citizen Services</a
                 >
@@ -75,7 +43,20 @@
               <li class="nav-item">
                 <a class="nav-link active" href="tourists.html">For Tourists</a>
               </li>
-              <!-- Add more navigation items here -->
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HistoryOfCity.html"
+                  >History of Athens</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ReachCity.html">Reach City</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -90,10 +71,8 @@
         array of attractions for every traveler.
       </p>
 
-      <!-- Attractions Section -->
       <h3>Top Attractions</h3>
       <div class="row">
-        <!-- Acropolis Card -->
         <div class="col-md-4">
           <div class="card mb-3">
             <img
@@ -110,7 +89,6 @@
             </div>
           </div>
         </div>
-        <!-- Plaka Card -->
         <div class="col-md-4">
           <div class="card mb-3">
             <img src="./images/Plaka.jpeg" class="card-img-top" alt="Plaka" />
@@ -123,10 +101,7 @@
             </div>
           </div>
         </div>
-        <!-- Add more cards for other attractions as needed -->
       </div>
-
-      <!-- Services for Tourists Section -->
       <h3>Services for Tourists</h3>
       <ul class="services-list mb-4">
         <li>Guided tours of historical sites and museums.</li>
@@ -138,7 +113,6 @@
           city.
         </li>
         <li>Multi-lingual support services for non-Greek speakers.</li>
-        <!-- Add more services as needed -->
       </ul>
     </main>
 
