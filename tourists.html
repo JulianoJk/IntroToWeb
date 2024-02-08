@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Tourists - Athens, Greece</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        padding-top: 56px;
+      }
+      footer {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+        margin-top: 40px;
+      }
+      .card-img-top {
+        height: 250px; /* Adjust height as needed */
+        object-fit: cover; /* Ensure images cover nicely */
+      }
+      .services-list {
+        list-style-type: none; /* Remove default list styling */
+        padding-left: 0; /* Align items to the left */
+      }
+      .services-list li:before {
+        content: "\2022"; /* Add bullet points */
+        color: #007bff; /* Bootstrap primary color */
+        font-weight: bold; /* Make bullet points bold */
+        display: inline-block;
+        width: 1em; /* Space between bullet points and text */
+        margin-left: -1em; /* Align bullet points with text */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Athens, Greece</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HistoryOfCity.html"
+                  >History of Athens</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CitizenServices.html"
+                  >Citizen Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="tourists.html">For Tourists</a>
+              </li>
+              <!-- Add more navigation items here -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-4">
+      <h2>Welcome to Athens</h2>
+      <p class="mb-4">
+        Discover the timeless beauty of Athens, a city rich in history and
+        culture. From ancient ruins to vibrant neighborhoods, Athens offers an
+        array of attractions for every traveler.
+      </p>
+
+      <!-- Attractions Section -->
+      <h3>Top Attractions</h3>
+      <div class="row">
+        <!-- Acropolis Card -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img
+              src="./images/Acropolis.jpeg"
+              class="card-img-top"
+              alt="Acropolis"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Acropolis</h5>
+              <p class="card-text">
+                Marvel at the ancient glory of the Acropolis, home to the iconic
+                Parthenon and breathtaking views over Athens.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Plaka Card -->
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="./images/Plaka.jpeg" class="card-img-top" alt="Plaka" />
+            <div class="card-body">
+              <h5 class="card-title">Plaka</h5>
+              <p class="card-text">
+                Wander through Plaka's picturesque streets, filled with
+                neoclassical architecture, cozy cafes, and charming boutiques.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards for other attractions as needed -->
+      </div>
+
+      <!-- Services for Tourists Section -->
+      <h3>Services for Tourists</h3>
+      <ul class="services-list mb-4">
+        <li>Guided tours of historical sites and museums.</li>
+        <li>
+          Information centers offering maps, brochures, and event details.
+        </li>
+        <li>
+          Convenient rentals for bicycles, scooters, and cars to explore the
+          city.
+        </li>
+        <li>Multi-lingual support services for non-Greek speakers.</li>
+        <!-- Add more services as needed -->
+      </ul>
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p>&copy; 2024 City of Athens. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
